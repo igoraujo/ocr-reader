@@ -17,7 +17,7 @@ namespace OcrReader
                 // Pré-processamento da imagem
                 string preprocessedImagePath = PreprocessImage(imagePath);
 
-                string tessDataPath = @"C:\Users\igor.araujo\OneDrive - BANCO BMG S A\Documentos\tessdata";
+                string tessDataPath = @"C:\Users\igor.araujo\source\repos\ocr-reader\tessdata";
 
                 using var engine = new TesseractEngine(tessDataPath, "por", EngineMode.Default);
                 using var img = Pix.LoadFromFile(preprocessedImagePath);
