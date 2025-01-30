@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OcrReader", "OcrReader", "{81D9D8D0-514E-CBC0-3E8A-93F02F0E1068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcrReader", "OcrReader\OcrReader\OcrReader.csproj", "{ADF37A6B-EEC8-8E34-FF2B-D865CAF0154C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADF37A6B-EEC8-8E34-FF2B-D865CAF0154C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF37A6B-EEC8-8E34-FF2B-D865CAF0154C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF37A6B-EEC8-8E34-FF2B-D865CAF0154C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF37A6B-EEC8-8E34-FF2B-D865CAF0154C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADF37A6B-EEC8-8E34-FF2B-D865CAF0154C} = {81D9D8D0-514E-CBC0-3E8A-93F02F0E1068}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41CD39FE-B581-4A5F-B7E9-C424749ED4D1}
+	EndGlobalSection
+EndGlobal
